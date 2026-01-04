@@ -5,10 +5,10 @@
 
 ```mermaid
 graph TD
-    A[Start] --> M1[Module 1: The Foundation\n(Speed Run - 3 Days)]
-    M1 --> M2[Module 2: The 'Hired' Skills\n(Window Functions & CTEs)]
-    M2 --> M3[Module 3: Data Cleaning\n(The Real Job)]
-    M3 --> M4[Module 4: Optimization\n(The 'Senior' Edge)]
+    A[Start] --> M1["Module 1: The Foundation<br>(Speed Run - 3 Days)"]
+    M1 --> M2["Module 2: The 'Hired' Skills<br>(Window Functions & CTEs)"]
+    M2 --> M3["Module 3: Data Cleaning<br>(The Real Job)"]
+    M3 --> M4["Module 4: Optimization<br>(The 'Senior' Edge)"]
     
     style M1 fill:#e1f5fe,stroke:#01579b,stroke-width:2px
     style M2 fill:#fff8e1,stroke:#ff6f00,stroke-width:2px
