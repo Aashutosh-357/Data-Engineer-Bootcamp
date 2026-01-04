@@ -10,10 +10,6 @@ graph TD
     M2 --> M3["Module 3: Data Cleaning<br>(The Real Job)"]
     M3 --> M4["Module 4: Optimization<br>(The 'Senior' Edge)"]
     
-    style M1 fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    style M2 fill:#fff8e1,stroke:#ff6f00,stroke-width:2px
-    style M3 fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
-    style M4 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
 ```
 
 ---
