@@ -67,14 +67,14 @@ This is an **intensive, project-driven Data Engineering bootcamp** designed to t
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                     4-MONTH DATA ENGINEERING JOURNEY                     │
+│                     4-MONTH DATA ENGINEERING JOURNEY                    │
 └─────────────────────────────────────────────────────────────────────────┘
 
 Month 1            Month 2            Month 3            Month 4
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🐍 Python         🔄 Airflow         ☁️  AWS            🎯 Interview
-📊 SQL            🐳 Docker          ⚡ Spark           📝 Resume
-📁 Pandas         🏗️  Modeling       🪣 S3/Lambda       🏆 Capstone
+🐍 Python         🔄 Airflow        ☁️ AWS              🎯 Interview
+📊 SQL            🐳 Docker          ⚡ Spark            📝 Resume
+📁 Pandas         🏗️ Modeling       🪣 S3/Lambda        🏆 Capstone
                                                         
 Deliverable:      Deliverable:       Deliverable:       Deliverable:
 basics-etl        News Fetcher       PySpark            Job Market
