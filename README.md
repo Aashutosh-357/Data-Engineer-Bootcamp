@@ -593,7 +593,7 @@ Remember:
 
 ---
 
-Made with ❤️ and ☕ by aspiring Data Engineers
+Made with ❤️ and by aspiring Data Engineer.
 
 **⭐ Star this repo if you're following along!**
 
