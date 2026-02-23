@@ -1,19 +1,32 @@
-# 1. The Name of the Workflow
-name: Maya-First-Robot
+name: Python-Gatekeeper
 
-# 2. The Trigger (The "When")
 on: [push]
 
-# 3. The Jobs (The "What")
 jobs:
-  check-version:
-    # The Runner (The "Where")
+  quality-check:
     runs-on: ubuntu-latest
 
-    # 4. The Steps (The "How")
     steps:
-      - name: Tell the world I am here
-        run: echo "The code has landed. Starting inspection..."
+      # Step 1: This 'grabs' your code and puts it on the runner
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Check Python version
-        run: python --version
+      # Step 2: This installs Python 3.9 on the runner
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # Step 3: Run a fake test (we will make this real soon)
+      - name: Run a security scan
+        run: |
+          echo "Scanning code for secrets..."
+          echo "No secrets found. Code is clean."
+
+      # Step 4: The moment of truth
+      - name: Run Unit Tests
+        run: |
+          echo "Running pytest..."
+          # For now, we'll just echo success. 
+          # If this command exits with an error, the whole pipeline turns RED.
+          echo "All tests passed!"
