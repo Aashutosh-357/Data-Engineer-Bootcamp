@@ -1,0 +1,19 @@
+# 1. The Name of the Workflow
+name: Maya-First-Robot
+
+# 2. The Trigger (The "When")
+on: [push]
+
+# 3. The Jobs (The "What")
+jobs:
+  check-version:
+    # The Runner (The "Where")
+    runs-on: ubuntu-latest
+
+    # 4. The Steps (The "How")
+    steps:
+      - name: Tell the world I am here
+        run: echo "The code has landed. Starting inspection..."
+
+      - name: Check Python version
+        run: python --version
